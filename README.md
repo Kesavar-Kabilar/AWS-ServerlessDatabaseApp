@@ -1,6 +1,6 @@
-# AWS RDS Aurora MySQL and AWS ElastiCache
+# AWS Serverless Database Application
 
-I implemented a serverless application utilizing AWS services, specifically RDS Aurora MySQL, ElastiCache (Redis), and Lambda. The primary objective was to demonstrate the performance advantages of caching in enhancing database query response times. I built a storage service that manages read and write requests to a relational database, effectively leveraging Redis for caching.
+I designed and implemented a serverless database application using a dataset of superhero user profiles. I built a storage service that manages read and write requests to a relational database, and utilized Redis for efficient caching.
 
 * **RDS Aurora MySQL:** I created and populated an Aurora MySQL database using provided data. This database served as the persistent storage layer for my application.
 * **ElastiCache (Redis):** I configured a Redis cluster to function as a cache, and implemented write-through and lazy-loading caching strategies to optimize read and write operations.
